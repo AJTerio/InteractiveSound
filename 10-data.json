@@ -1,0 +1,63 @@
+{
+	"pattrstorage" : 	{
+		"name" : "data",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slingblade" : [ 0 ],
+					"mypattr" : [ 0 ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"slider[1]" : [  ],
+					"slider[2]" : [  ],
+					"slider[3]" : [  ],
+					"slider[4]" : [  ],
+					"slider[5]" : [  ],
+					"slider[6]" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slingblade" : [ 0 ],
+					"mypattr" : [ 0 ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"slider[1]" : [  ],
+					"slider[2]" : [  ],
+					"slider[3]" : [  ],
+					"slider[4]" : [  ],
+					"slider[5]" : [  ],
+					"slider[6]" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"slingblade" : [ 0 ],
+					"mypattr" : [ 0 ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"slider[1]" : [  ],
+					"slider[2]" : [  ],
+					"slider[3]" : [  ],
+					"slider[4]" : [  ],
+					"slider[5]" : [  ],
+					"slider[6]" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
