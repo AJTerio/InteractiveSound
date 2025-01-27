@@ -10,9 +10,33 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 694.0, 138.0, 1000.0, 780.0 ],
+		"rect" : [ 694.0, 138.0, 600.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 698.224869966506958, 588.648622334003448, 59.45945680141449, 28.648647367954254 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 665.945916175842285, 102.617804288864136, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "ezdac~",
@@ -149,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 513.017764627933502, 396.686032772064209, 31.952663540840149, 22.0 ],
+					"patching_rect" : [ 513.017764627933502, 396.686032772064209, 32.0, 22.0 ],
 					"text" : "mtof"
 				}
 
@@ -210,7 +234,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 172.558133363723755, 350.697661876678467, 50.0, 22.0 ]
+					"patching_rect" : [ 170.697668313980103, 347.567552030086517, 50.0, 22.0 ]
 				}
 
 			}
@@ -870,6 +894,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-76", 2 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -1045,6 +1076,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -1151,11 +1198,11 @@
 
 			}
  ],
-		"originid" : "pat-160",
+		"originid" : "pat-294",
 		"dependency_cache" : [ 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 9/Examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 9/Examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

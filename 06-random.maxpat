@@ -10,9 +10,33 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 698.0, 122.0, 600.0, 780.0 ],
+		"rect" : [ 555.0, 122.0, 1139.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 473.964509189128876, 276.288644313812256, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 263.402047097682953, 326.804105401039124, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "slider",
@@ -115,7 +139,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.796229839324951, 325.187941044569016, 32.0, 22.0 ],
+					"patching_rect" : [ 220.796229839324951, 326.804105401039124, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -164,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.556384533643723, 256.390954673290253, 124.812018990516663, 47.0 ],
+					"patching_rect" : [ 72.556384533643723, 256.390954673290253, 127.0, 47.0 ],
 					"text" : "The right outlet sends a bang when you've reached the end"
 				}
 
@@ -368,7 +392,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.606640338897705, 8.056872844696045, 143.60191011428833, 33.0 ],
+					"patching_rect" : [ 52.606640338897705, 8.056872844696045, 145.0, 33.0 ],
 					"text" : "random number between 0 and 4 respectively"
 				}
 
@@ -544,6 +568,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
+					"order" : 1,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -578,7 +611,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"order" : 1,
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
+					"order" : 0,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -598,7 +640,7 @@
 
 			}
  ],
-		"originid" : "pat-112",
+		"originid" : "pat-306",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

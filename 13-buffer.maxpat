@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 54.748601198196411, 57.222222566604614, 98.0, 22.0 ],
+					"text" : "replace jongly.aif"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-123",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -50,8 +62,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 254.117657661437988, 568.235317826271057, 52.0, 22.0 ],
-					"text" : "phasor~"
+					"patching_rect" : [ 254.117657661437988, 568.235317826271057, 76.0, 22.0 ],
+					"text" : "phasor~ 440"
 				}
 
 			}
@@ -708,7 +720,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 41.798942446708679, 62.962963938713074, 99.0, 22.0 ],
+					"patching_rect" : [ 41.798942446708679, 92.063493490219116, 99.0, 22.0 ],
 					"text" : "buffer~ dogboy 2"
 				}
 
@@ -802,6 +814,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1023,7 +1042,7 @@
 
 			}
  ],
-		"originid" : "pat-209",
+		"originid" : "pat-314",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
